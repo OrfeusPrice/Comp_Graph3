@@ -16,5 +16,23 @@ namespace Lab3
         {
             InitializeComponent();
         }
+
+        private void ButtonTask1_Click(object sender, EventArgs e)
+        {
+            FormTask1 f1 = new FormTask1();
+            f1.Show();
+        }
+
+        private void ButtonTask2_Click(object sender, EventArgs e)
+        {
+            FormTask2 f2 = new FormTask2();
+            f2.Show();
+        }
+
+        private void ButtonTask3_Click(object sender, EventArgs e)
+        {
+            FormTask3 f3 = new FormTask3();
+            f3.Show();
+        }
     }
 }
