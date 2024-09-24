@@ -71,6 +71,7 @@
             this.Controls.Add(this.ButtonTask3);
             this.Controls.Add(this.ButtonTask2);
             this.Controls.Add(this.ButtonTask1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
